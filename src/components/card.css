@@ -1,0 +1,3 @@
+.card{ padding:12px; border-radius:var(--radius); background:var(--card-bg); box-shadow:var(--shadow) }
+.card .card-title{ font-size:0.9rem; color:var(--muted-color) }
+.card .card-value{ font-size:1.6rem; font-weight:700; margin-top:6px }

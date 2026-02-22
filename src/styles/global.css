@@ -1,0 +1,18 @@
+*{ box-sizing:border-box }
+a{ color:var(--primary-color) }
+.app-shell{ display:flex; min-height:100vh }
+.main-area{ flex:1; display:flex; flex-direction:column }
+main{ padding:28px 28px }
+.cards{ display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr)); gap:16px; margin-bottom:24px }
+.table-wrap{ overflow:auto; background:var(--card-bg); padding:16px; border-radius:14px; box-shadow:var(--shadow) }
+table{ width:100%; border-collapse:collapse }
+.table-wrap th, .table-wrap td{ text-align:left; padding:10px; border-bottom:1px solid rgba(0,0,0,0.04) }
+.row{ display:flex; gap:8px; align-items:center }
+.small{ padding:6px 8px; font-size:0.85rem }
+
+/* Simple utility */
+.card{ background:var(--card-bg); border-radius:14px; box-shadow:var(--shadow); padding:16px }
+
+/* Buttons - refine appearance */
+.btn{ border-radius:10px; padding:10px 14px; font-weight:600 }
+.btn.secondary{ background:#f3f4f6; color:var(--text-color); }

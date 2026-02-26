@@ -1,0 +1,23 @@
+.login-page{ min-height:100vh; display:flex; align-items:center; justify-content:center; padding:24px }
+.login-card{ width:880px; background:var(--card-bg); padding:18px; border-radius:12px; box-shadow:var(--shadow); text-align:left }
+.login-card.wide{ max-width:920px }
+.login-top{ display:flex; align-items:center; gap:18px; padding:8px 12px }
+.login-top .logo{ width:56px; height:56px }
+.login-top h2{ margin:0; font-size:1rem; flex:1; text-align:center }
+.login-body{ padding:12px 18px }
+.login-body h3{ margin:0 0 12px 0 }
+.login-card .logo{ margin-right:8px }
+.login-row{ display:flex; justify-content:space-between; align-items:center; margin-top:12px }
+.login-actions{ display:flex; gap:12px; align-items:center }
+.remember{ display:inline-flex; gap:8px; align-items:center }
+.login-card input, .login-card textarea, .login-card select{ width:100%; padding:10px; border-radius:8px; border:1px solid rgba(0,0,0,0.08); margin-top:8px }
+.login-card .muted{ color:var(--muted-color); font-size:0.95rem }
+.access-row{ margin-top:12px; font-size:0.95rem; padding:12px }
+.settings-gear{ margin-left:auto }
+
+.register-grid{ display:grid; grid-template-columns:1fr 420px; gap:20px; align-items:start }
+.register-grid input{ padding:10px; border-radius:8px; border:1px solid rgba(0,0,0,0.08); width:100%; }
+.register-grid label{ display:block; margin-bottom:6px }
+
+.login-card .showbtn{ position:absolute; right:8px; top:8px; background:none; border:none }
+
